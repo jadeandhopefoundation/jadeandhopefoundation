@@ -1,0 +1,206 @@
+body, html {	/*the outer layer of the site and global style attributes*/
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-color: white;
+width: 100%;
+background: #7cab99;
+}
+p{
+    font-size: 30px;
+}
+#test p {
+    font-size: 100px;
+    color: black;
+    opacity:1;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari and Chrome */
+    animation-timing-function: ease-out;
+     width: 100px;
+   
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 2s 1; /* Safari 4.0 - 8.0 */
+    animation: mymove 2s 1;
+    left: 300px;
+}
+a.b{
+font-family: 'Julius Sans One', sans-serif;
+color: black;
+opacity: .5;
+font-size: 30px;
+text-decoration:none;
+
+padding-top:10;
+padding-left: 340;
+ text-align: center;
+
+
+}
+a.b.nav-active {
+    color:#ccc;
+}
+a.b:hover{
+    opacity:1;
+}
+a.c{
+font-family: 'Julius Sans One', sans-serif;
+color: black;
+opacity: .5;
+font-size: 30px;
+text-decoration:none;
+
+padding-top:10;
+padding-left: 100;
+ text-align: center;
+
+
+}
+a.c.nav-active {
+    color:#ccc;
+}
+a.c:hover{
+    opacity:1;
+}
+a.d{
+font-family: 'Julius Sans One', sans-serif;
+color: black;
+opacity: .5;
+font-size: 30px;
+text-decoration:none;
+
+padding-top:10;
+padding-left: 100;
+ text-align: center;
+
+
+}
+a.d.nav-active {
+    color:#ccc;
+}
+a.d:hover{
+    opacity:1;
+}
+@keyframes mymove {
+    from {left: -300px;}
+    to {left: 300px;}
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/* Safari 4.0 - 8.0 */
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease;}
+#div3 {-webkit-animation-timing-function: ease-in;}
+#div4 {-webkit-animation-timing-function: ease-out;}
+#div5 {-webkit-animation-timing-function: ease-in-out;}
+
+#mission p {
+    font-size: 50px;
+    color: black;
+    opacity:1;
+    text-align: center;
+    animation: fadein 6s;
+    -moz-animation: fadein 6s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari and Chrome */
+    animation-timing-function: linear;
+    animation: mymove 5s infinite;
+}
+/* Standard syntax */
+
+#projects {animation-timing-function: ease-in;
+height:500px}
+#scholarship {animation-timing-function: ease-in;
+height:500px}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding-top: 100px;
+}
+header {
+  background: #f07057;
+}
+header,
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+
+  background: #e0eee0;
+  height: 60px;
+  z-index: 150;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+   font-weight: bold;
+ padding-top: 10px;
+ }
+h2{
+font-family: 'Julius Sans One', sans-serif;
+color: black;
+font-size: 50px;  
+ margin-left: 50; 
+ font-weight: bold;
+ padding-top: 10px;
+  text-align: center;
+
+}
+.main {
+  background: #f2f2e8;
+  column-count: 2;
+  column-gap: 40px;
+}
+
+.missiont{
+    background: #7cab99;
+    padding-top: 50px;
+
+    margin: 500, 500, 500;
+}
+
+.projectst{
+    background: #7cab99;
+    padding-top: 50px;
+    padding-bottom:500px;
+    margin: 500, 500, 500;
+}
+
+.researcht{
+    background: #7cab99;
+   padding-top: 0px;
+        height: 100%
+}
+
